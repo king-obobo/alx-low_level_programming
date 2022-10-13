@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Main - Entry Point
+ * main - Entry Point
  *
  * Description: Uses sizeof to print the size of the various types
  *
