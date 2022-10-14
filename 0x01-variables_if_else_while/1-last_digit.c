@@ -5,7 +5,7 @@
 /**
  * main - Entry point
  * Description: prints the last digit of the number stored in n
- * Return: Always 0 (Success) 
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
