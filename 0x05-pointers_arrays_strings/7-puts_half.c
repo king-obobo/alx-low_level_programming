@@ -14,11 +14,11 @@ void puts_half(char *str)
 
 	l = strlen(str);
 	if (l % 2 == 0)
-		y = l / 2;
+		n = l / 2;
 	else
-		y = l / 2 + 1;
+		n = l / 2 + 1;
 
-	for (i = y; i < x; i++)
+	for (i = n; i < l; i++)
 		_putchar(str[i]);
 	_putchar('\n');
 }
