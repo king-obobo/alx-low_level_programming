@@ -7,7 +7,7 @@
  * Return: Noting
 */
 
-void puts2(chsr *str)
+void puts2(char *str)
 {
 	int i;
 
