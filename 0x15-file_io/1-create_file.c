@@ -13,7 +13,7 @@ int fd, w;
 
 if (filename != NULL)
 {
-fd = open(filename, O_CREAT | 0_TRUNC | O_RDWR, 0600);
+fd = open(filename, O_CREAT | O_TRUNC | O_RDWR, 0600);
 if (text_content != NULL)
 w = write(fd, text_content, _strlen(text_content));
 
@@ -37,8 +37,8 @@ int len = 0;
 
 while (str[len] != '\0')
 {
-len++
+len++;
 }
 
-return len
+return (len);
 }
