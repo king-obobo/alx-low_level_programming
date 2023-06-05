@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
 
 /**
 * read_textfile - read a certain size and prints to std output
@@ -17,7 +16,7 @@ char *buffer;
 if (filename == NULL)
 return (0);
 
-fd = open(filename, O_RDONLY) :
+fd = open(filename, O_RDONLY);
 if (fd == -1)
 return (0);
 
@@ -33,7 +32,7 @@ close(fd);
 return (0);
 }
 
-n_wrote = write(STDOUT_FILENO, buffer, n_read) :
+n_wrote = write(STDOUT_FILENO, buffer, n_read);
 if (n_wrote == -1)
 {
 free(buffer);
